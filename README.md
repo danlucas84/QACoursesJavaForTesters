@@ -1,2 +1,2 @@
 # QACoursesJavaForTesters
-# java for tester tutorial / courses orginazed by QA courses
+# java for tester tutorial / course by QA courses
