@@ -15,4 +15,5 @@ gradle-app.setting
 .idea/misc.xml
 *.idea
 *.iml
+*.bak
 
