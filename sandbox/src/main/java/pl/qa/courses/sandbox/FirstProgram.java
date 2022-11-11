@@ -13,14 +13,28 @@ public class FirstProgram {
     hello3("Joanna");
     hello3("Danny");
     area(10);
-    area(3,6);
+    area(3, 6);
+
+    Square s = new Square();
+    Rectangle r = new Rectangle();
+
+    s.lx = 5;
+    System.out.println("pole kwadratu dla bok = " + s.lx + " wynosi " + areaS(s));
+
+    r.a = 7;
+    r.b = 3;
+    System.out.println(("pole prostokątu dla bok a = " + r.a + " i " + "bok b = " + r.b + " wynosi " + areaR(r)));
+
+    areaS(s);
+    areaR(r);
 
     double l = 7;
     System.out.println("pole kwadratu dla bok = " + l + " wynosi " + area(l));
 
     double a = 3;
     double b = 6;
-    System.out.println("pole prostokątu dla bok a = " + a  + " i " + "bok b = " + b + " wynosi " + area(a,b));
+    System.out.println("pole prostokątu dla bok a = " + a + " i " + "bok b = " + b + " wynosi " + area(a,b));
+
 
     double bok = 5;
     //double bokB = 5;
@@ -53,6 +67,15 @@ public class FirstProgram {
   public static double area(double a, double b) {
     return a * b;
   }
+
+  public static double areaS(Square s) {
+    return s.lx * s.lx;
+  }
+
+  public static double areaR(Rectangle r) {
+    return r.a * r.b;
+  }
+
 }
 
 
