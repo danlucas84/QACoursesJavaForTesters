@@ -15,14 +15,14 @@ public class FirstProgram {
     area(10);
     area(3, 6);
 
-    Square s = new Square();
-    Rectangle r = new Rectangle();
+    Square s = new Square(5);
+    Rectangle r = new Rectangle(7,3);
 
-    s.lx = 5;
+    //s.lx = 5; wartosc 5 przekazemy w konstruktorze Square powyzej podczas tworzenia obiektu
     System.out.println("pole kwadratu dla bok = " + s.lx + " wynosi " + areaS(s));
 
-    r.a = 7;
-    r.b = 3;
+   // r.a = 7; wartosc 7 przekazemy w konstuktorze rectangle wyzej podczas tworzenia obiektu
+   // r.b = 3; wartosc 3 przekazemy w konstruktorze rectangle wyzej podczas tworzenia obiektu
     System.out.println(("pole prostokątu dla bok a = " + r.a + " i " + "bok b = " + r.b + " wynosi " + areaR(r)));
 
     areaS(s);
