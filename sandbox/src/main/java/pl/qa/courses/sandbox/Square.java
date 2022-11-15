@@ -4,8 +4,8 @@ public class Square {
 
   public double lx;
 
-  public Square(double len) {
+  public Square(double lx) {
 
-    this.lx = len;
+    this.lx = lx;
   }
 }
